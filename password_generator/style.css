@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter;
+    background-color: black;
+    color: white;
+
+}
+
+main {
+    width: 550px;
+    background-color: #1f2937;
+    margin: 50px auto;
+    padding: 118px 52px 30px 52px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 5px 0;
+
+}
+
+.green-font {
+    color: #10B981;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.grey-font {
+    color: #D5D4D8;
+}
+
+#generate-el {
+    font-family: Inter;
+    border: none;
+    border-radius: 6px;
+    width: 223px;
+    font-size: 16px;
+    background-color: #10B981;
+    color: white;
+    padding: 9px 17px 9px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    cursor: pointer;
+
+}
+
+#length-el {
+    font-family: Inter;
+    border: none;
+    border-radius: 6px;
+    width: 223px;
+    font-size: 16px;
+    background-color: #10B981;
+    color: white;
+    padding: 9px 17px 9px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+#generate-el img {
+    width: 14px;
+    height: 18px;
+    margin-right: 9px;
+
+}
+
+#line {
+    border-top: #2F3E53 solid 1px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 20px;
+    height: 5px;
+}
+
+.container button {
+    width: 211px;
+    height: 38px;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 6px 0px 6px;
+    border-radius: 3px;
+    border: none;
+    background-color: #2F3E53;
+    color: #55F991;
+    font-size: 16px;
+
+}
+
+.input {
+    background-color: transparent;
+    color: #55F991;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    font: "Inter", "Helvetica";
+    cursor: pointer;
+}
+
+.input:hover {
+    border: none;
+    outline: none;
+}
+
+.input:focus {
+    border: none;
+    outline: none;
+    caret-color: transparent;
+}
