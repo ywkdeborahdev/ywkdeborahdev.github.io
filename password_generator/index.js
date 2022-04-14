@@ -11,6 +11,16 @@ for (let i = 0; i < OPTION_EL.length; i++) {
     OPTION_EL[i].addEventListener('click', copy);
 }
 
+
+LENGTH_EL.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        GENERATE_EL.click();
+    }
+})
+
+
+
 function generate() {
     let length;
     if (!LENGTH_EL.value || LENGTH_EL.value > 15 || LENGTH_EL.value == 0) {
