@@ -1,0 +1,174 @@
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    background-color: black;
+
+}
+
+body * {
+    background-color: #FFFFFF;
+}
+
+main {
+    width: 550px;
+    margin: 30px auto 0 auto;
+}
+
+.header {
+    height: 190px;
+    padding: 51px 71px;
+    text-align: center;
+    color: #2B283A;
+    background-color: #F5F5F5;
+    color: #2B283A;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    background-color: #F5F5F5;
+}
+
+.header p {
+    background-color: #F5F5F5;
+}
+
+.content {
+    height: 529px;
+    padding: 37px 37px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button:hover {
+    border: 3px solid #3770ED;
+    padding: 6px 10px;
+}
+
+.button-container button:focus {
+    border: 3px solid #3770ED;
+    padding: 6px 10px;
+    background-color: #F0F9FF;
+}
+
+button {
+    padding: 9px 13px;
+    width: 143px;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    color: #4A4E74;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+
+}
+
+.title span {
+    color: #4A4E74;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.total {
+    border-top: 1px solid #C3C6DB;
+    padding-top: 10px;
+}
+
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.total-amount span {
+    color: #918E9B;
+    font-size: 36px;
+
+}
+
+.total-amount p {
+    color: #4A4E74;
+    font-size: 12px;
+    align-self: center;
+    visibility: hidden;
+}
+
+#reset-btn {
+    width: 100%;
+    background-color: #3770ED;
+    color: white;
+    padding: 13px;
+}
+
+#reset-btn:hover {
+    background-color: #5180e8;
+}
+
+#reset-btn:focus {
+    background-color: #1c5eed;
+}
+
+
+
+#reset-btn img {
+    background-color: transparent;
+}
+
+#reset-btn span {
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.row span {
+    color: #918E9B;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+.items .item {
+    color: #4A4E74;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.items .remove-btn {
+    border: none;
+    padding: 0px 15px;
+    width: 70px;
+    color: #918E9B;
+    font-size: 8px;
+    text-align: left;
+}
+
+.row .dark {
+    color: #4A4E74;
+}
+
+.row .large {
+    font-size: 24px;
+}
+
+#sum-el {
+    color: #4A4E74;
+}
